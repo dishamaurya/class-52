@@ -1,0 +1,70 @@
+
+h1{
+    color:red;
+    border:solid;
+    padding: 50px;
+    
+}
+
+/*
+*{
+    Border:solid;
+} */
+
+
+.header{
+border:solid;
+background-color:pink;
+display:flex;
+justify-content: space-evenly;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+
+}
+.menu{
+    border:solid;
+    padding-top: 50px;
+}
+
+p,h2{
+    text-align: center;
+}
+body{
+    background-color: bisque;
+}
+a:link{
+
+color: #000000;
+    
+}
+a:visited{
+
+    color:#ff0000;
+
+}
+.item{
+    
+    position:relative;
+}
+.item p{
+    color:rgb(139, 0, 74);
+    position:absolute;
+    top:50%;
+    left:35%;
+
+    opacity: 0;
+}
+.item:hover p{
+opacity: 1;
+}
+.item:hover img{
+    opacity: 0.6;
+}
